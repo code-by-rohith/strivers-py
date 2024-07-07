@@ -1,4 +1,4 @@
-def getSingleElement(arr):
+def   getSingleElement(arr):
     n = len(arr)
     for i in range(n):
         num = arr[i]
