@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46531cb9-1fef-4f1b-bb1c-a23aa1db5069" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="46531cb9-1fef-4f1b-bb1c-a23aa1db5069" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,22 +28,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MaxConsecOnes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.UnionOfTwoSortArray.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ZeroToEndOfArray.executor&quot;: &quot;Run&quot;,
-    &quot;Python.reversenum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.rotate_array.executor&quot;: &quot;Run&quot;,
-    &quot;Python.rotate_array_d.executor&quot;: &quot;Run&quot;,
-    &quot;Python.rotate_array_ones.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.rotate_array_two.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/rdroh/OneDrive/Desktop/pycharm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.1.executor": "Run",
+    "Python.MaxConsecOnes.executor": "Run",
+    "Python.UnionOfTwoSortArray.executor": "Run",
+    "Python.ZeroToEndOfArray.executor": "Run",
+    "Python.reversenum.executor": "Run",
+    "Python.rotate_array.executor": "Run",
+    "Python.rotate_array_d.executor": "Run",
+    "Python.rotate_array_ones.executor": "Debug",
+    "Python.rotate_array_two.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/rdroh/OneDrive/Desktop/dm"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="MaxConsecOnes" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pycharm" />
