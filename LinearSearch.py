@@ -1,4 +1,4 @@
-def lin(arr):
+def lin(arr,n):
     a="Number Not Found"
     for i in range(len(arr)):
         if arr[i]==n:
@@ -9,4 +9,4 @@ def lin(arr):
 
 n=2
 arr=[10,15,2,3,7,9]
-print(lin(arr))
+print(lin(arr,n))
