@@ -1,8 +1,4 @@
 
-import random
-
-# Generate a list of random values
-
 def bub_Sort(arr):
     for i in range(len(arr)-1,0,-1):
         for j in range(i):
