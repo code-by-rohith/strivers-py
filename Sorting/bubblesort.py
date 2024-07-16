@@ -1,10 +1,11 @@
+
+def bub_Sort(arr):
+    for i in range(len(arr)-1,0,-1):
+        for j in range(i):
+            if arr[j]>arr[j+1]:
+                temp = arr[j]
+                arr[j]=arr[j+1]
+                arr[j+1]=temp
 arr = [88, 22, 65, 95, 25]
-
-def bubble_sort(arr):
-    for i in range(len(arr) - 1):
-        for j in range(0, len(arr) - i - 1): #5-1-1  3
-            if arr[j] > arr[j + 1]:
-                arr[j], arr[j + 1] = arr[j + 1], arr[j]
-    print(arr)
-
-bubble_sort(arr)
+bub_Sort(arr)
+print(arr)
