@@ -1,4 +1,7 @@
 
+import random
+
+# Generate a list of random values
 
 def bub_Sort(arr):
     for i in range(len(arr)-1,0,-1):
@@ -7,6 +10,6 @@ def bub_Sort(arr):
                 temp = arr[j]
                 arr[j]=arr[j+1]
                 arr[j+1]=temp
-arr = [88, 22, 65, 95, 25]
+arr=[5,2,50,88,22,65]
 bub_Sort(arr)
-print(arr)
+print("Sorted array :", arr)

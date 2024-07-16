@@ -9,7 +9,7 @@ def sel_sort(arr):
         temp = arr[i]
         arr[i] = arr[min_index]
         arr[min_index] = temp
-        print(arr)
+
 
 sel_sort(arr)
 print(arr)
