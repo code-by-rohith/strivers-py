@@ -16,7 +16,7 @@ def find_anagram(s, q):
     return similar
 
 s = ["hello", "hey!!", "yellow"]
-q = input()
+q = "hey"
 
 res = find_anagram(s, q)
 print("The answer is:", res)
