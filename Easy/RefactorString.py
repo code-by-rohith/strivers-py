@@ -2,6 +2,7 @@ def rever(s):
     stack = []
     for char in s:
         stack.append(char)
+    print(stack)
     reversed = ""
     while stack:
         reversed += stack.pop()

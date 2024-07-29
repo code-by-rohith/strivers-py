@@ -1,7 +1,6 @@
 arr1 = [56, 450, 87, 12, 85]
 max1 = 0
 max2 = 0
-
 for num in arr1:
     if num > max1:
         max2 = max1

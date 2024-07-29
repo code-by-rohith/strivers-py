@@ -9,5 +9,5 @@ def reverse_num(arr):
         right-=1
     return arr
 
-arr=[1,2,5,10,20]
+arr=[8,4,3,2]
 print(reverse_num(arr))
