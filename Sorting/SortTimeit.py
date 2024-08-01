@@ -9,7 +9,7 @@ def bub_Sort(arr):
                 arr[j] = arr[j + 1]
                 arr[j + 1] = temp
 
-arr = [random.randint(0, 100000) for _ in range(10)]
+arr = [random.randint(0, 100000) for _ in range(10000)]
 print("Original array:", arr)
 
 time_taken = timeit.timeit(lambda: bub_Sort(arr), number=1)

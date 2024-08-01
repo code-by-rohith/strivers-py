@@ -15,8 +15,9 @@ def binary_search(arr, target):
     return -1
 
 
-arr = [10,2, 3, 4, 5, 6, 7, 8, 9, 10]
-target = 7
+arr = [x for x in range(2,20,2) ]
+print(arr)
+target =4
 
 result = binary_search(arr, target)
 if result != -1:
