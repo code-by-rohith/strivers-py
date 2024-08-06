@@ -16,7 +16,7 @@ def factorial_list_recursive(numbers):
     return factorial_list
 
 # Example usage:
-numbers = [5, 3, 7, 2]
+numbers = [16, 3, 7, 2]
 factorials = factorial_list_recursive(numbers)
 print("Factorials of", numbers, "are:", factorials)
 

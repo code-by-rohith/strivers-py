@@ -9,3 +9,4 @@ arr = [1, 2, 3, 4, 5]
 print("Original Array:", arr)
 arr = left_rotate_by_two(arr)
 print("Left Rotated Array by two positions:", arr)
+
