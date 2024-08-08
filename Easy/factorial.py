@@ -6,7 +6,6 @@ def factorial(n):
     else :
         return (n*factorial(n-1))
 
-
 n=int(input("Enter the number : "))
 print(factorial(n))
 def factorial_list_recursive(numbers):
