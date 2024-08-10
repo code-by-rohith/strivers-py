@@ -14,7 +14,6 @@ def binary_search(arr, target):
 
     return -1
 
-
 arr = [x for x in range(2,20,2) ]
 print(arr)
 target =4
