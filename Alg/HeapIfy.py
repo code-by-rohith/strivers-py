@@ -17,7 +17,6 @@ def build_heap(arr):
     n = len(arr)
     for i in range(n // 2 - 1, -1, -1):
         heapify(arr, n, i)
-
 li = [5, 7, 9, 1, 3,8,65]
 print("Old Heap is        :", li)
 build_heap(li)
