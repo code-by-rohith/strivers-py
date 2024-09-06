@@ -76,7 +76,7 @@ print(sorted_data)  # [1, 2, 5, 5, 6, 9]
 
 # 9. Custom Sorting with Heaps
 # Fact: You can use heaps to manage custom sorting criteria by storing tuples where the first element is the key used for sorting.
-data = [(3, 'apple'), (1, 'banana'), (2, 'cherry')]
+data = [(3, 'apple'), (100, 'banana'), (2, 'cherry')]
 heapq.heapify(data)
 print("\n9. Custom Sorting with Heaps:")
 while data:
