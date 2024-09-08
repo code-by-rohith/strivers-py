@@ -15,6 +15,5 @@ def three_sum_bruteforce(nums):
     return res
 
 
-# Example usage
 nums = [-1, 0, 1, 2, -1, -4]
 print(three_sum_bruteforce(nums))
