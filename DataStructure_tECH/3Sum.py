@@ -1,29 +1,35 @@
-from typing import List
-def threeSum(nums: List[int]) -> List[List[int]]:
-    nums.sort()
-    result = []
-    n = len(nums)
-    if n < 3:
-        return result
-    for i in range(n - 2):
-        if i > 0 and nums[i] == nums[i - 1]:
-            continue
-        l, r = i + 1, n - 1
-        while l < r:
-            s = nums[i] + nums[l] + nums[r]
-            if s == 0:
-                result.append([nums[i], nums[l], nums[r]])
-                while l < r and nums[l] == nums[l + 1]:
+from typing import  List
+class Solution:
+    def threeSum(self, nums):
+        nums.sort()
+        result = []
+        if len(nums) < 3:
+            return []
+        for i in range(0, len(nums) - 2):
+            if nums[i] == nums[i - 1] and i > 0:
+                continue
+            a = nums[i]
+            l = i + 1
+            r = len(nums) - 1
+            while l < r:
+                s = nums[i] + nums[l] + nums[r]
+                if s == 0:
+                    result.append([nums[i], nums[l], nums[r]])
                     l += 1
-                while l < r and nums[r] == nums[r - 1]:
                     r -= 1
-                l += 1
-                r -= 1
-            elif s < 0:
-                l += 1
-            else:
-                r -= 1
-    return result
+                    while l < r and nums[l] == nums[l - 1]:
+                        l += 1
+                    while l < r and nums[r] == nums[r + 1]:
+                        r -= 1
+                elif s < 0:
+                    l += 1
+                else:
+                    r -= 1
+        return result
 
-nums = [-1, 0, 1, 2, -1, -4]
-print(threeSum(nums))
+
+if __name__ == "__main__":
+    sol = Solution()
+    nums = [1,1,1,1]
+    print(f"Input: {nums}")
+    print("Output:", sol.threeSum(nums))
