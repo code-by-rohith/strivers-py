@@ -15,8 +15,8 @@ def find_anagram(s, q):
 
     return similar
 
-s = ["hello", "hey!!", "yellow","helloworldhello"]
-q = "hell"
+s = ["hello", "hey!!", "yellow","hellioworld"]
+q = "hellis"
 
 res = find_anagram(s, q)
 print("The answer is:", res)
