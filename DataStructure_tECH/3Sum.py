@@ -27,7 +27,6 @@ class Solution:
                     r -= 1
         return result
 
-
 if __name__ == "__main__":
     sol = Solution()
     nums = [1,1,1,1]
