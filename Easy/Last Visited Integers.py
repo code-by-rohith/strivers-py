@@ -15,7 +15,7 @@ def main(nums):
                 samp.append(-1)
     return samp
 
-nums = [1,-1,2,-1,-1]
+nums = [1,-1,2,-1,-1,-1,5,8]
 print(main(nums))
 
 
